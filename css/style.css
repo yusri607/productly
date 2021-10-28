@@ -68,7 +68,7 @@ html {
     }
 
     .gambar-1 img {
-        width: 450px;
+        width: -webkit-fill-available;
     }
 
     .judul-1{
