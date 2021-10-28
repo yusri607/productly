@@ -26,21 +26,21 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse navbar-menu" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" id="myDIV">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link btn-nav active-btn" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#feature">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link btn-nav" href="#pricing">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link btn-nav" href="#">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Product</a>
+            <a class="nav-link btn-nav" href="#">Product</a>
           </li>
         </ul>
       </div>
@@ -176,6 +176,21 @@
 <script>
   AOS.init();
 </script>
+
+<!-- button active -->
+<script>
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("myDIV");
+  var btns = header.getElementsByClassName("btn-nav");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active-btn");
+    current[0].className = current[0].className.replace(" active-btn", "");
+    this.className += " active-btn";
+    });
+  }
+  </script>
+  <!-- AKhir button active -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>

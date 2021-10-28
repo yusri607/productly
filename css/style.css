@@ -101,8 +101,8 @@ body{
  
 }
 
-.navbar-menu a {
-    color: black !important;
+.navbar-light .navbar-nav .nav-link {
+    color: black;
 }
 .navbar-menu a:hover {
     color: #FF9900 !important;
@@ -122,6 +122,12 @@ body{
 .navbar-toggler:focus{
     box-shadow: none;
 }
+
+/* button active */
+.active-btn, .btn-nav:hover {
+    color: #FF9900 !important;
+  }
+/* akhir button active */
 
 .konten-1 {
     margin-top: 50px;
