@@ -77,9 +77,13 @@ html {
     }
 }
 
+.tab-web-icon{
+    width: 512px;
+}
 .bg-menu{
     background-color: white;
 }
+
 .navbar{
     background-color: white !important;   
     font-weight: bold;
