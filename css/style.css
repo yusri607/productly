@@ -14,6 +14,10 @@ html {
         scroll-behavior: smooth;
 }
 
+body{
+    padding-top: 100px;
+}
+
 
 /*  Dekstop */
 @media (min-width: 1025px) { 
@@ -108,7 +112,7 @@ html {
 }
 
 .konten-1 {
-    margin-top: 1a50px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
