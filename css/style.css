@@ -101,8 +101,11 @@ body{
  
 }
 
+.navbar-menu a {
+    color: black !important;
+}
 .navbar-menu a:hover {
-    color: #FF9900;
+    color: #FF9900 !important;
 }
 .navbar-menu a:active{
     color: #FF9900;
