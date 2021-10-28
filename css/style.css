@@ -37,18 +37,26 @@ html {
     .judul-1{
         margin-top:800px;
     }
+
+    .gambar-1 img {
+        width: 500px;
+    }
     
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
-
+    .gambar-1 img {
+        width: 500px;
+    }
 
 }
 
 /* Ipad */
 @media (min-width: 553px) and (max-width: 768px) { 
    
-  
+    .gambar-1 img {
+        width: 500px;
+    }
 }
 
 
