@@ -24,6 +24,9 @@ html {
         margin-top:80px;
     }
 
+    .gambar-1 img {
+        width: 500px;
+    }
 
 }
 
@@ -34,7 +37,7 @@ html {
     .judul-1{
         margin-top:800px;
     }
-  
+    
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
@@ -87,9 +90,6 @@ html {
     margin-bottom: 50px;
 }
 
-.gambar-1 img {
-    width: 500px;
-}
 
 .judul-1 h1 {
     font-weight: bold;
