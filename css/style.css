@@ -1,14 +1,14 @@
 html, body{
     background-color: white;
     overflow-x: hidden;
-    /* font-family: 'Poppins'; */
+    font-family: 'Poppins';
 }
 
-    /* @font-face {
+    @font-face {
         font-family: Poppins;
         src: url(font/Poppins-Regular.ttf);
         
-    } */
+    }
 
 html {
         scroll-behavior: smooth;
